@@ -1,0 +1,67 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 2000px; /* Extra height for scroll demonstration */
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: background-color 0.3s ease;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.nav-item a:hover {
+    background-color: #575757;
+    color: #f1f1f1;
+    border-radius: 5px;
+}
+
+.scrolled {
+    background-color: #222; /* Darker background when scrolled */
+}
+
+.content {
+    padding-top: 80px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+h2 {
+    margin-top: 0;
+}
